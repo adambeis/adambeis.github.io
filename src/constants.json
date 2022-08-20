@@ -1,0 +1,23 @@
+{
+	"LotteryApp": {
+		"title": "Lottery App",
+		"description": "From a random number generated completely on-chain, picks a lottery winner",
+		"repo": "https://github.com/adambeis/LotteryApp",
+		"demo": "https://heartfelt-dodol-56b9d5.netlify.app",
+		"languages": ["Hardhat", "Solidity", "Svelte", "Tailwind"]
+	},
+	"Serpent": {
+		"title": "Serpent NFT Game",
+		"description": "Game where the NFTs level up powered only on-chain, NFTs can be bought and sold",
+		"repo": "https://github.com/adambeis/Serpent",
+		"demo": "https://splendorous-granita-0d76d7.netlify.app",
+		"languages": ["Truffle", "Solidity", "Svelte Kit", "Tailwind"]
+	},
+	"ElectionApp": {
+		"title": "Election App",
+		"description": "Voting app through Blockchain Technology",
+		"repo": "https://github.com/adambeis/ElectionApp",
+		"demo": "https://legendary-parfait-b174a4.netlify.app",
+		"languages": ["Truffle", "Solidity", "Svelte", "Tailwind"]
+	}
+}

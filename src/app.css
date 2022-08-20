@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-vertical {
+	writing-mode: vertical-rl;
+}
+
+.img-bnw {
+	-webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+	filter: grayscale(100%);
+}
+
+.icon:hover img {
+	-webkit-filter: none;
+	filter: none;
+}
+
+.img-negative {
+	filter: invert(1);
+}
+
+.img-negative-bnw {
+	filter: invert(1) grayscale(100%);
+}
+
+.logo:hover svg {
+	fill: #512aff;
+}
+
+.glowing-circle {
+	-webkit-animation: glowing 1s ease-in-out infinite alternate;
+	-moz-animation: glowing 1s ease-in-out infinite alternate;
+	animation: glowing 1s ease-in-out infinite alternate;
+}
+@keyframes glowing {
+	from {
+		box-shadow: 0 0 10px #12004b, 0 0 20px #12004b, 0 0 30px #4400ff, 0 0 40px #0730f3,
+			0 0 50px #3611a5, 0 0 60px #3611a5, 0 0 70px #3611a5;
+	}
+	to {
+		box-shadow: 0 0 20px #12004b, 0 0 30px #450cff, 0 0 40px #450cff, 0 0 50px #450cff,
+			0 0 60px #450cff, 0 0 70px #450cff, 0 0 80px #450cff;
+	}
+}
